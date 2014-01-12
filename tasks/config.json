@@ -1,0 +1,18 @@
+{
+    "timerTask": {
+		"api": {
+			"name": "tick",
+			"rawBody": true
+		},
+		"input": {
+			"adapter": "Interval",
+			"options": 900
+		},
+		"output": [
+			{
+				"adapter": "console",
+				"options": null
+			}
+		]
+	}
+}
