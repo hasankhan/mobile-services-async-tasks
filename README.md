@@ -1,13 +1,13 @@
 AsyncTasks
 ==========
 
-Extension for Azure Mobile Services for running asynchronous tasks in the background that are triggered by external events. AsyncTasks framework is based on startup scripts preview feature of Azure Mobile Service.
+Extension for Azure Mobile Services for running asynchronous tasks in the background that are triggered by external events. This enables you to automatically run your custom API whenever a new item is added to Azure queue or a tweet is posted on twitter, etc. AsyncTasks framework is based on startup scripts preview feature of Azure Mobile Service.
 
 Getting Started
 ===============
 * Enable source control on your Mobile Service.
 * git clone your repository
-* Native to service folder
+* Navigate to service folder
 * Copy the tasks folder from AsyncTasks to your service folder
 * Copy the startup.js from AsyncTasks\extensions to your service\extensions folder
 * git commit and push your changes
